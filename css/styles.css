@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family/Poppins');
+
+html {
+    font-family: "Poppins";
+    background-color: rgb(250, 255, 255);
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+  }
+
+#links a {
+    text-decoration: none;
+    color: rgb(116, 182, 245);
+    padding: 20px;
+  }
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}  
+
+.small{
+    font-size: 15px;
+}  
+
+
+h1 {
+    font-size: 40px;
+    font-family: "poppins light";
+    font-style: italic;
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+#photos img {
+    object-fit: contain;  
+    height: 450px;
+    padding: 0px 20px 0px 20px;   
+  }
+  
+#photos {
+    display: flex;
+    justify-content: center;
+}  
+
+h2 {
+ font-size: 25px;
+ padding: 2px 0px 2px 0px;
+ font-weight: 400;
+}
+
+#list{
+padding-left: 30px;
+}
+
+.line{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    margin-top: 10px;
+    
+}
+
+.grey{
+    color: rgb(82, 81, 81);
+}
+
+.padding{
+    padding: 0px 350px 50px 350px;
+}
+
+.list{
+    list-style-type: "-  ";
+    font-size: 20px;
+}
