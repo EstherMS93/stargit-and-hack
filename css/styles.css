@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html {
+.global {
     font-family: "Poppins";
     background-color: rgb(250, 255, 255);
     border: solid;
@@ -27,7 +28,7 @@ html {
 }  
 
 
-h1 {
+#h1 {
     font-size: 70px;
     font-style: italic;
     text-align: center;
@@ -48,15 +49,12 @@ h1 {
     justify-content: center;
 }  
 
-h2 {
+.titlelittle {
  font-size: 45px;
  padding: 0px;
  font-family: "poppins", bold;
 }
 
-ul{
-margin-left: 50px;
-}
 
 .line{
     border-top: solid black 1px;
@@ -73,7 +71,59 @@ margin-left: 50px;
     padding: 0px 200px 120px 200px;
 }
 
-ul{
+#ul{
     list-style-type: "-  ";
     font-size: 30px;
+    margin-left: 50px;
 }
+
+/*css betty */
+
+
+
+#betty{
+    background-color: black;
+    font-family: "roboto";
+    color: rgb(72, 255, 0);  
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.settings{
+    font-size: 40px;
+}
+    
+.change span {
+    display:none; 
+    padding:2px 3px; 
+    width:130px;
+    }
+    
+.change:hover span{
+    display:inline; 
+    position:relative;  
+    color:rgba(72, 255, 0, 0.4);
+    font-size: 20px;
+    }
+    
+ .listbis{
+     font-size: 30px;
+     font-style: italic;
+ }
+
+.listbis li{
+    list-style-type: none;
+} 
+
+ .button{
+     display: flex;
+     justify-content: left;
+     text-decoration: none;
+     color: white;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     
+ }
+
