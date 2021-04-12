@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family/Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 html {
     font-family: "Poppins";
     background-color: rgb(250, 255, 255);
     border: solid;
     border-color: black;
-    border-width: 5px;
+    border-width: 8px;
   }
 
 #links a {
     text-decoration: none;
     color: rgb(116, 182, 245);
-    padding: 20px;
+    padding: 40px 40px 30px 20px;
+    font-size: 25px;
   }
 
 #links {
@@ -20,24 +21,26 @@ html {
     justify-content: center;
 }  
 
-.small{
-    font-size: 15px;
+.small p{
+    font-size: 22px;
+    font-stretch: narrower;
 }  
 
 
 h1 {
-    font-size: 40px;
-    font-family: "poppins light";
+    font-size: 70px;
     font-style: italic;
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 0 0 30px 0;
     margin: 0;
+    font-family: "poppins", thin;
 }
 
 #photos img {
-    object-fit: contain;  
-    height: 450px;
-    padding: 0px 20px 0px 20px;   
+    object-fit: cover;  
+    height: 650px;
+    width: 450px;
+    padding: 0px 30px 0px 30px;   
   }
   
 #photos {
@@ -46,13 +49,13 @@ h1 {
 }  
 
 h2 {
- font-size: 25px;
- padding: 2px 0px 2px 0px;
- font-weight: 400;
+ font-size: 45px;
+ padding: 0px;
+ font-family: "poppins", bold;
 }
 
-#list{
-padding-left: 30px;
+ul{
+margin-left: 50px;
 }
 
 .line{
@@ -67,10 +70,10 @@ padding-left: 30px;
 }
 
 .padding{
-    padding: 0px 350px 50px 350px;
+    padding: 0px 200px 120px 200px;
 }
 
 .list{
     list-style-type: "-  ";
-    font-size: 20px;
+    font-size: 30px;
 }
